@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    font-family: sans-serif;
+  }
+  
+  #app {
+    background-color: blanchedalmond;
+    border: 10px solid black;
+    height: 90vh;
+    width: 80vw;
+    position: relative;
+    margin: 0 auto;
+  }
+  .rod {
+    background-color: blueviolet;
+    width: 200px;
+    height: 20px;
+    border-radius: 8px 8px;
+    text-align: center;
+  }
+  .rod1 {
+    position: absolute;
+    left: 0px;
+  }
+  
+  .rod2 {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;;
+  }
+  .ball {
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: red;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
